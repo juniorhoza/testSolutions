@@ -1,6 +1,7 @@
 **This Documentation will refer to the Python answers**
 
 **Finding the Single Salary in an Array**
+
 This Python function, findSingleSalary, helps find a unique salary within an array where every element appears twice except for one.
 
 **How It Works**
@@ -20,3 +21,26 @@ You can use this function by passing your array of salaries to findSingleSalary,
     salaries = [25000, 25000, 19000, 19000, 50, 1, 1]
     print(findSingleSalary(salaries))
 
+
+
+**Finding Start and End Positions of a Target Value**
+This Python function, firstAndLastPosition, locates the starting and ending positions of a target value within a sorted array of integers.
+
+**How It Works**
+The firstAndLastPosition function performs the following steps:
+
+1-** Initial Setup**: It initializes the positions list with [-1, -1], representing the starting and ending positions. If the target value is not present in the array, it returns this default list.
+2-** Finding Positions**: If the target value exists in the array, it proceeds to find the starting position by using the index() function to locate the first occurrence of the target.
+3- **Determining the Ending Position**: If the target appears more than once, it checks for the next occurrence of the target after the starting position and updates the ending position accordingly.
+
+**Approach**
+The function begins by checking if the target exists in the array. If found, it determines the starting position using index(). If a subsequent occurrence exists after the starting position, it updates the ending position accordingly.
+
+**Usage**
+To use this function, provide a sorted array of numbers and the target value. It will return a list containing the starting and ending positions of the target value within the array.
+
+
+        numbers = [1, 2, 2, 3, 3, 3, 4, 5, 5, 5]
+        target_value = 3
+        print(firstAndLastPosition(numbers, target_value))
+Note: For cases where the target is not found in the array, the function returns [-1, -1].
