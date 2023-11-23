@@ -2,7 +2,7 @@
 
 ## **Finding the Single Salary in an Array**
 
-This Python function, findSingleSalary, helps find a unique salary within an array where every element appears twice except for one.
+This problem was solved by using a Python function called findSingleSalary. This function helps find a unique salary within an array where every element appears twice except for one.
 
 ### **How It Works**
 The findSingleSalary function uses the following steps:
@@ -17,7 +17,8 @@ The findSingleSalary function uses the following steps:
         When it finds a salary that doesn't have a duplicate, it updates the single salary variable to that value.
         
 ### Approach
-The approach taken by the function is to check each salary against all other salaries in the array. When it encounters a salary that doesn't have a duplicate, it returns that as a single salary.
+The approach taken by the function is to check each salary against all other salaries in the array and this is done by using nested loops. When it encounters a salary that doesn't have a duplicate, it returns that as a single salary. 
+The function implementation can be seen in the screenshot below
 
 
 ![image](https://github.com/juniorhoza/testSolutions/assets/40476836/f315c077-360e-46ef-a8d8-ac3d74f64487)
@@ -54,6 +55,8 @@ The firstAndLastPosition function performs the following steps:
 ### **Approach**
 
 The function begins by checking if the target exists in the array. If found, it determines the starting position using index(). If a subsequent occurrence exists after the starting position, it updates the ending position accordingly.
+
+The function implementation can be seen in the screenshot below
 
 ![image](https://github.com/juniorhoza/testSolutions/assets/40476836/3144212e-98a7-425f-8784-628f8a44a173)
 
