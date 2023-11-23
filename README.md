@@ -7,9 +7,9 @@ This Python function, findSingleSalary, helps find a unique salary within an arr
 **How It Works**
 The findSingleSalary function uses the following steps:
 
-1- **Iterating and Comparing**: It iterates through the provided array of salaries using nested loops.
-2- **Checking for Duplicates**: For each salary in the array, the function compares it to all other salaries in the array.
-3- **Identifying the Single Salary**: When it finds a salary that doesn't have a duplicate, it updates the single salary variable to that value.
+    1- **Iterating and Comparing**: It iterates through the provided array of salaries using nested loops.
+    2- **Checking for Duplicates**: For each salary in the array, the function compares it to all other salaries in the array.
+    3- **Identifying the Single Salary**: When it finds a salary that doesn't have a duplicate, it updates the single salary variable to that value.
 Approach
 The approach taken by the function is to check each salary against all other salaries in the array. When it encounters a salary that doesn't have a duplicate, it returns that as a single salary.
 
