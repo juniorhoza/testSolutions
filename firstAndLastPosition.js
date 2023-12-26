@@ -1,6 +1,6 @@
 let numbers = []
 let target=7
-numbers.indexOf
+
 function firstAndLast(numbers,target){
     let positions= [-1,-1]
     if(numbers.indexOf(target)!=-1){
